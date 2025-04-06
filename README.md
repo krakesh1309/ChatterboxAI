@@ -3,7 +3,15 @@
 ChatterboxAI is a fully functional AI chatbot web application built using Django and OpenAI's GPT API. It features secure user authentication, real-time chat, message history, and a modern responsive UI. Users can interact with an intelligent assistant that responds contextually to their messages.
 
 ---
+## 🚀 How It Works
 
+1. **User signs up or logs in** to access the chat interface.
+2. Inside the chat interface, users can **ask any question or have conversations**.
+3. Messages are **sent to OpenAI’s GPT API**, and the response is returned and shown on the screen.
+4. Each message and response is stored in the **SQLite database**, tied to the user’s account.
+5. The project uses a `.env` file to securely store your **OpenAI API key**, which is excluded from Git using `.gitignore`.
+
+---
 ## 🌟 Features
 
 - 🔐 **User Authentication** – Register, Login, Logout functionality
@@ -36,6 +44,7 @@ chatgpt/ │ ├── chatbot/ │ ├── migrations/ │ ├── template
 ```bash
 git clone https://github.com/krakesh1309/ChatterboxAI.git
 cd ChatterboxAI
+
 2. **Create and Activate Virtual Environment**
 python -m venv venv
 # Windows
@@ -61,4 +70,4 @@ venv\Scripts\activate
 Rakesh Kumar
 🎓 B.Tech 2024 | 🧑‍💻 Python & Django Developer
 📍 Bengaluru, India
-🔗 GitHub | LinkedIn
+
