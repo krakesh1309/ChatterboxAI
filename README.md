@@ -163,7 +163,7 @@ Contributions are welcome! 🌟 If you want to report bugs 🐞, request new fea
 
 For any queries or support, please contact:
 - **Name**: Rakesh
-- **Email**: your-sprakesh4114@gmail.com
+- **Email**: sprakesh4114@gmail.com
 - **GitHub**: [krakesh1309](https://github.com/krakesh1309)
 
 ---
